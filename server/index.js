@@ -1,6 +1,6 @@
 const express = require('express');
+const db = require("/Users/chengyang/Desktop/project/server/db/index.js")
 const app = express();
-const mysql = require('mysql');
 const cors = require('cors');
 const bcrypt = require('bcrypt');
 const saltRounds = 10;
@@ -26,12 +26,6 @@ app.use(session({
         expires: 60*60*24,
     },
 }));
-const db = mysql.createConnection({
-    user: "root",
-    host: "localhost",
-    password: "password",
-    database: "iChat",
-});
 app.post("/checkEmail", (req, res) => {
     const email = req.body.email;
     db.query(
