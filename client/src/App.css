@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+}
+::placeholder{
+  color: #a5a4a4;
+}
+.Login{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.Login input {
+  width:200px;
+  height:20px;
+}
+.Register{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.Register input {
+  width:200px;
+  height:20px;
+}
+html {
+  background-color: #fafafa;
+}
+.homeTab{
+  border-color: #dbdbdb;
+  border-width: 1.5px;
+  border-style: solid;
+  border-radius: 2px;
+  position: absolute;
+  left: 465px;
+  top: 50px;
+  height: 85%;
+  width: 500px;
+  background-color: white;
+}
+.Register{
+  border-color: #dbdbdb;
+  border-width: 1.5px;
+  border-style: solid;
+  border-radius: 2px;
+  position: absolute;
+  left: 465px;
+  top: 50px;
+  height: 85%;
+  width: 500px;
+  background-color: white;
+}
+.Login{
+  border-color: #dbdbdb;
+  border-width: 1.5px;
+  border-style: solid;
+  border-radius: 2px;
+  position: absolute;
+  left: 465px;
+  top: 50px;
+  height: 85%;
+  width: 500px;
+  background-color: white;
+}
+.title{
+  cursor: pointer;
+  font-size: 48pt;
+  position: absolute;
+  left: 175px;
+  top: 40px;
+  background-image: linear-gradient(to left top, #fffb00, #de3aff);
+  background-clip: text;
+  color: transparent;
+  border: none;
+}
+.loginButton{
+  border: 0;
+  background-color: #0096f6;
+  position: absolute;
+  border-radius: 20px;
+  top: 210px;
+  left: 115px;
+  padding: 20px 110px;
+  color: white;
+  font-size: 16pt;
+}
+.registerButton{
+  border: 0;
+  background-color: #0096f6;
+  position: absolute;
+  border-radius: 20px;
+  top: 410px;
+  left: 115px;
+  padding: 20px 100px;
+  color: white;
+  font-size: 16pt;
+}
+.loginMessage{
+  color: rgb(98, 97, 97);
+  font-size: 18pt;
+  position: absolute;
+  top: 155px;
+  left: 129px;
+}
+.registerMessage{
+  color: rgb(98, 97, 97);
+  font-size: 18pt;
+  position: absolute;
+  top: 355px;
+  left: 140px;
+}
+.dot {
+  background-color:#fff;
+  border:2px solid red;    
+  height:20px;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  width:20px;
+  color: red;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+}
